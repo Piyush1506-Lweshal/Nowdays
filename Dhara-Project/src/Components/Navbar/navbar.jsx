@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import Nowdays from "../../assets/images/Nowdays logo.png";
+import Nowdays from "../../assets/images/Adventure Nowdays.png";
 
 const Navbar = () => {
   return (
@@ -11,8 +11,12 @@ const Navbar = () => {
             <img
               src={Nowdays}
               alt="Web-image"
-              height={"60px"}
-              width={"60px"}
+              style={{
+                height: "80px",
+                width: "250px",
+                margin: "0",
+                padding: "0",
+              }}
             />
           </div>
           <div className="nav-links">
